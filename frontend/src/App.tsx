@@ -51,7 +51,6 @@ function App() {
                       : 'text-gray-300 hover:bg-gray-800/70 hover:text-white',
                   ].join(' ')
                 }
-                aria-current={({ isActive }: { isActive: boolean }) => (isActive ? 'page' : undefined) as 'page' | undefined}
               >
                 {icon}
                 <span>{label}</span>

@@ -7,8 +7,8 @@ class ResizeObserverPolyfill {
   unobserve() {}
   disconnect() {}
 }
-// @ts-expect-error - polyfill for jsdom
-global.ResizeObserver = ResizeObserverPolyfill;
+// Polyfill for jsdom
+global.ResizeObserver = ResizeObserverPolyfill as unknown as typeof ResizeObserver;
 
 // Return non-zero dimensions so recharts can calculate chart sizes
 Object.defineProperty(HTMLElement.prototype, 'getBoundingClientRect', {
