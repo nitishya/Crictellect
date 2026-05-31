@@ -1,47 +1,48 @@
 {
   "match_info": {
-    "team_a": "India",
-    "team_b": "Australia",
-    "status": "Live - Innings 2",
-    "venue": "Wankhede Stadium, Mumbai",
-    "toss": "Australia won the toss and elected to field"
+    "team_a": "Royal Challengers Bengaluru",
+    "team_b": "Gujarat Titans",
+    "status": "Live - Innings 1 (IPL 2026 Final)",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "toss": "Royal Challengers Bengaluru won the toss and elected to field"
   },
   "live_score": {
-    "team_a_total": 240,
-    "team_a_wickets": 6,
-    "team_a_overs": 20.0,
-    "team_b_total": 185,
-    "team_b_wickets": 4,
-    "team_b_overs": 15.2,
-    "current_run_rate": 12.06,
-    "required_run_rate": 12.0,
-    "target": 241
+    "team_a_total": 0,
+    "team_a_wickets": 0,
+    "team_a_overs": 0.0,
+    "team_b_total": 45,
+    "team_b_wickets": 1,
+    "team_b_overs": 5.2,
+    "current_run_rate": 8.43,
+    "required_run_rate": 0.0,
+    "target": 0
   },
   "partnership": {
-    "runs": 45,
-    "balls": 25,
+    "runs": 22,
+    "balls": 14,
     "player1": {
-      "name": "Virat Kohli",
-      "runs": 24,
-      "balls": 12
+      "name": "Shubman Gill",
+      "runs": 28,
+      "balls": 16
     },
     "player2": {
-      "name": "Hardik Pandya",
-      "runs": 20,
-      "balls": 13
+      "name": "Sai Sudharsan",
+      "runs": 12,
+      "balls": 9
     }
   },
   "momentum": [
     { "over": 1, "momentum": 50, "win_prob_a": 50, "win_prob_b": 50 },
-    { "over": 5, "momentum": 60, "win_prob_a": 55, "win_prob_b": 45 },
-    { "over": 10, "momentum": 40, "win_prob_a": 48, "win_prob_b": 52 },
-    { "over": 15, "momentum": 75, "win_prob_a": 65, "win_prob_b": 35 }
+    { "over": 2, "momentum": 55, "win_prob_a": 48, "win_prob_b": 52 },
+    { "over": 3, "momentum": 45, "win_prob_a": 55, "win_prob_b": 45 },
+    { "over": 4, "momentum": 40, "win_prob_a": 60, "win_prob_b": 40 },
+    { "over": 5, "momentum": 60, "win_prob_a": 52, "win_prob_b": 48 }
   ],
   "players": [
     {
       "id": 1,
       "name": "Virat Kohli",
-      "team": "India",
+      "team": "Royal Challengers Bengaluru",
       "runs": 8500,
       "strike_rate": 138.5,
       "average": 52.4,
@@ -50,24 +51,24 @@
     },
     {
       "id": 2,
-      "name": "Steve Smith",
-      "team": "Australia",
-      "runs": 7200,
-      "strike_rate": 128.2,
-      "average": 48.9,
-      "boundaries": 640,
-      "recent_form": [15, 42, 88, 22, 10]
+      "name": "Shubman Gill",
+      "team": "Gujarat Titans",
+      "runs": 4200,
+      "strike_rate": 135.2,
+      "average": 45.9,
+      "boundaries": 440,
+      "recent_form": [105, 42, 88, 22, 10]
     }
   ],
   "teams": {
-    "India": {
-      "win_percentage": 68.5,
-      "powerplay_sr": 142.3,
-      "death_over_sr": 185.6,
-      "chase_success": 72.1
+    "Royal Challengers Bengaluru": {
+      "win_percentage": 58.5,
+      "powerplay_sr": 145.3,
+      "death_over_sr": 195.6,
+      "chase_success": 65.1
     },
-    "Australia": {
-      "win_percentage": 65.2,
+    "Gujarat Titans": {
+      "win_percentage": 62.2,
       "powerplay_sr": 138.9,
       "death_over_sr": 178.4,
       "chase_success": 68.4
@@ -76,15 +77,15 @@
   "fantasy": {
     "top_captain": {
       "name": "Virat Kohli",
-      "reasoning": "Excellent recent form and strong track record at Wankhede."
+      "reasoning": "Excellent recent form and thrives in high-pressure finals."
     },
     "top_vice_captain": {
-      "name": "Pat Cummins",
-      "reasoning": "Consistent wicket-taker in the death overs."
+      "name": "Shubman Gill",
+      "reasoning": "Exceptional record at the Narendra Modi Stadium."
     },
     "differential": {
-      "name": "Ishan Kishan",
-      "reasoning": "Explosive opener against left-arm pace, low selection percentage."
+      "name": "Mohammed Siraj",
+      "reasoning": "Can swing the new ball and pick early wickets in the powerplay."
     }
   }
 }
